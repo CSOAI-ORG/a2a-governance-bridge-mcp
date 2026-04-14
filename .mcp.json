@@ -1,1 +1,95 @@
-{"name":"a2a-governance-bridge-mcp","vendor":"MEOK AI Labs","homepage":"https://meok.ai","repository":"https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp","runtime":"python","entrypoint":"server.py"}
+{
+  "name": "a2a-governance-bridge-mcp",
+  "description": "> **By [MEOK AI Labs](https://meok.ai)** \u2014 Sovereign AI tools for everyone.",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "verify_agent_compliance",
+      "description": "Verify a remote agent meets compliance requirements before allowing A2A transaction.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "agent_id": {
+            "type": "string"
+          },
+          "agent_description": {
+            "type": "string"
+          },
+          "required_frameworks": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "agent_id",
+          "agent_description"
+        ]
+      }
+    },
+    {
+      "name": "authorize_a2a_transaction",
+      "description": "Authorize an agent-to-agent transaction after compliance verification.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "source_agent": {
+            "type": "string"
+          },
+          "target_agent": {
+            "type": "string"
+          },
+          "task_description": {
+            "type": "string"
+          },
+          "data_types": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_agent",
+          "target_agent",
+          "task_description"
+        ]
+      }
+    },
+    {
+      "name": "get_trust_registry",
+      "description": "Get the current agent trust registry.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_a2a_audit_trail",
+      "description": "Get audit trail of all A2A governance checks.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer"
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "cross_agent_risk_score",
+      "description": "Calculate composite risk score for a multi-agent workflow.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "agents": {
+            "type": "string"
+          },
+          "task_complexity": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "agents"
+        ]
+      }
+    }
+  ]
+}

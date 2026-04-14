@@ -1,8 +1,51 @@
 name: a2a-governance-bridge-mcp
-description: MEOK AI Labs — a2a governance bridge
-vendor: MEOK AI Labs
-homepage: https://meok.ai
-repository: https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp
-license: MIT
-runtime: python
-entrypoint: server.py
+description: "> **By [MEOK AI Labs](https://meok.ai)** \u2014 Sovereign AI tools for\
+  \ everyone."
+version: 1.0.0
+tools:
+- name: verify_agent_compliance
+  description: Verify a remote agent meets compliance requirements before allowing
+    A2A transaction.
+  parameters:
+  - name: agent_id
+    type: string
+    required: true
+  - name: agent_description
+    type: string
+    required: true
+  - name: required_frameworks
+    type: string
+    required: false
+- name: authorize_a2a_transaction
+  description: Authorize an agent-to-agent transaction after compliance verification.
+  parameters:
+  - name: source_agent
+    type: string
+    required: true
+  - name: target_agent
+    type: string
+    required: true
+  - name: task_description
+    type: string
+    required: true
+  - name: data_types
+    type: string
+    required: false
+- name: get_trust_registry
+  description: Get the current agent trust registry.
+  parameters: []
+- name: get_a2a_audit_trail
+  description: Get audit trail of all A2A governance checks.
+  parameters:
+  - name: limit
+    type: integer
+    required: false
+- name: cross_agent_risk_score
+  description: Calculate composite risk score for a multi-agent workflow.
+  parameters:
+  - name: agents
+    type: string
+    required: true
+  - name: task_complexity
+    type: string
+    required: false
