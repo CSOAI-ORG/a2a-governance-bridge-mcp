@@ -1,0 +1,8 @@
+name: a2a-governance-bridge-mcp
+description: MEOK AI Labs — a2a governance bridge
+vendor: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp
+license: MIT
+runtime: python
+entrypoint: server.py
