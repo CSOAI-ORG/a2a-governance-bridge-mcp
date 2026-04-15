@@ -1,0 +1,58 @@
+{
+  "name": "a2a-governance-bridge",
+  "description": "MEOK AI Labs \u2014 A2A Governance Bridge. Compliance checking for agent-to-agent transactions. First in market.",
+  "version": "1.0.0",
+  "protocol_version": "2025-11-25",
+  "publisher": {
+    "name": "MEOK AI Labs",
+    "url": "https://meok.ai",
+    "email": "nicholas@meok.ai"
+  },
+  "repository": "https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp",
+  "license": "MIT",
+  "transport": [
+    "stdio",
+    "streamable-http"
+  ],
+  "authentication": {
+    "type": "api-key",
+    "free_tier": true,
+    "free_limit": "15 calls/day"
+  },
+  "tools": [
+    {
+      "name": "verify_agent_compliance",
+      "description": "Verify a remote agent meets compliance requirements before allowing A2A transaction."
+    },
+    {
+      "name": "authorize_a2a_transaction",
+      "description": "Authorize an agent-to-agent transaction after compliance verification."
+    },
+    {
+      "name": "get_trust_registry",
+      "description": "Get the current agent trust registry."
+    },
+    {
+      "name": "get_a2a_audit_trail",
+      "description": "Get audit trail of all A2A governance checks."
+    },
+    {
+      "name": "cross_agent_risk_score",
+      "description": "Calculate composite risk score for a multi-agent workflow."
+    }
+  ],
+  "categories": [
+    "AI & Machine Learning",
+    "Agent Infrastructure",
+    "Security & Compliance"
+  ],
+  "pricing": {
+    "free": {
+      "calls_per_day": 15
+    },
+    "pro": {
+      "price": "$29/month",
+      "url": "https://meok.ai/pricing"
+    }
+  }
+}
