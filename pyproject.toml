@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 [project]
 name = "a2a-governance-bridge-mcp"
 version = "1.0.0"
-description = "MEOK AI Labs — a2a-governance-bridge-mcp"
+description = "A2A Governance Bridge MCP server. Tools: verify agent compliance, authorize a2a transaction, get trust registry. Built by MEOK AI Labs."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
 authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]

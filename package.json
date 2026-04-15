@@ -1,1 +1,11 @@
-{"name":"a2a-governance-bridge-mcp","version":"1.0.0","description":"First A2A governance protocol. Agent-to-agent compliance verification. Zero competitors.","author":"MEOK AI Labs","license":"MIT","repository":{"type":"git","url":"https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp"}}
+{
+  "name": "a2a-governance-bridge-mcp",
+  "version": "1.0.0",
+  "description": "A2A Governance Bridge MCP server. Tools: verify agent compliance, authorize a2a transaction, get trust registry. Built by MEOK AI Labs.",
+  "author": "MEOK AI Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp"
+  }
+}

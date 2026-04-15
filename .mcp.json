@@ -1,6 +1,6 @@
 {
   "name": "a2a-governance-bridge-mcp",
-  "description": "> **By [MEOK AI Labs](https://meok.ai)** \u2014 MEOK AI Labs \u2014 A2A Governance Bridge. Compliance checking for agent-to-agent transactions. First in ",
+  "description": "A2A Governance Bridge MCP server. Tools: verify agent compliance, authorize a2a transaction, get trust registry. Built by MEOK AI Labs.",
   "version": "1.0.0",
   "tools": [
     {
