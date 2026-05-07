@@ -1,3 +1,5 @@
+[![a2a-governance-bridge-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/a2a-governance-bridge-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/a2a-governance-bridge-mcp)
+
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/a2a-governance-bridge-mcp)](https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp/stargazers)
