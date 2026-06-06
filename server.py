@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""A2A Governance Bridge MCP — MEOK AI Labs. First agent-to-agent compliance protocol. Zero competitors."""
+"""
+Buy Pro: https://www.csoai.org/checkout
+A2A Governance Bridge MCP — MEOK AI Labs. First agent-to-agent compliance protocol. Zero competitors."""
 
 import sys, os
 
-sys.path.insert(0, os.path.expanduser("~/clawd/meok-labs-engine/shared"))
 from auth_middleware import check_access
 
 import json, os, hashlib
@@ -82,7 +83,7 @@ def verify_agent_compliance(
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
+        return {"error": msg, "upgrade_url": "https://councilof.ai"}
 
     if err := _rl():
         return err
@@ -189,7 +190,7 @@ def authorize_a2a_transaction(
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
+        return {"error": msg, "upgrade_url": "https://councilof.ai"}
 
     if err := _rl():
         return err
@@ -265,7 +266,7 @@ def get_trust_registry(api_key: str = "") -> str:
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
+        return {"error": msg, "upgrade_url": "https://councilof.ai"}
 
     return {"agents": _trust_registry, "total": len(_trust_registry)}
 
@@ -311,7 +312,7 @@ def get_a2a_audit_trail(limit: int = 20, api_key: str = "") -> str:
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
+        return {"error": msg, "upgrade_url": "https://councilof.ai"}
 
     return {"total": len(_audit_trail), "recent": _audit_trail[-limit:]}
 
@@ -360,7 +361,7 @@ def cross_agent_risk_score(
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return {"error": msg, "upgrade_url": "https://meok.ai/pricing"}
+        return {"error": msg, "upgrade_url": "https://councilof.ai"}
 
     if err := _rl():
         return err
@@ -385,5 +386,8 @@ def cross_agent_risk_score(
     }
 
 
-if __name__ == "__main__":
+def main():
     mcp.run()
+
+if __name__ == '__main__':
+    main()

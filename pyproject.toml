@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "a2a-governance-bridge-mcp"
-version = "1.1.0"
+version = "1.1.7"
 readme = "README.md"
 description = "A2A Governance Bridge MCP server. Tools: verify agent compliance, authorize a2a transaction, get trust registry. Built by MEOK AI Labs."
 license = {file = "LICENSE"}
@@ -22,7 +22,7 @@ Homepage = "https://meok.ai"
 Repository = "https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp"
 [tool.hatch.build.targets.wheel]
 packages = ["."]
-only-include = ["server.py"]
+only-include = ["server.py", "auth_middleware.py"]
 
 [project.scripts]
 a2a_governance_bridge_mcp = "server:main"
