@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Buy Pro: https://www.csoai.org/checkout
 A2A Governance Bridge MCP — MEOK AI Labs. First agent-to-agent compliance protocol. Zero competitors."""
 
 import sys, os

@@ -1,0 +1,36 @@
+# a2a-governance-bridge-mcp
+# **MCP server for a2a governance bridge mcp operations**
+
+## Install
+```bash
+pip install a2a-governance-bridge-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
+
+## Tools
+
+### `verify_agent_compliance`
+Verify a remote agent meets compliance requirements before allowing A2A transaction.
+
+### `authorize_a2a_transaction`
+Authorize an agent-to-agent transaction after compliance verification.
+
+### `get_trust_registry`
+Get the current agent trust registry.
+
+### `get_a2a_audit_trail`
+Get audit trail of all A2A governance checks.
+
+### `cross_agent_risk_score`
+Calculate composite risk score for a multi-agent workflow.
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.

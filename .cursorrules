@@ -1,0 +1,9 @@
+# a2a-governance-bridge-mcp - Auto-trigger Rules
+
+When the user asks about a2a governance bridge, use a2a-governance-bridge-mcp tools: verify_agent_compliance, authorize_a2a_transaction, get_trust_registry, get_a2a_audit_trail, cross_agent_risk_score
+
+**MCP server for a2a governance bridge mcp operations**
+
+Install: `pip install a2a-governance-bridge-mcp`
+
+By MEOK AI Labs — MIT licensed.
