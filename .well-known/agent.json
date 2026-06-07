@@ -1,0 +1,68 @@
+{
+  "name": "a2a-governance-bridge-mcp",
+  "description": "A2a Governance Bridge MCP Server by MEOK AI Labs",
+  "url": "https://proofof.ai/scorecard/a2a-governance-bridge-mcp.html",
+  "version": "1.1.7",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "verify_agent_compliance",
+      "name": "Verify Agent Compliance",
+      "description": "verify_agent_compliance via a2a-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "authorize_a2a_transaction",
+      "name": "Authorize A2A Transaction",
+      "description": "authorize_a2a_transaction via a2a-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_trust_registry",
+      "name": "Get Trust Registry",
+      "description": "get_trust_registry via a2a-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_a2a_audit_trail",
+      "name": "Get A2A Audit Trail",
+      "description": "get_a2a_audit_trail via a2a-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "cross_agent_risk_score",
+      "name": "Cross Agent Risk Score",
+      "description": "cross_agent_risk_score via a2a-governance-bridge-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
