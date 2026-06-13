@@ -4,9 +4,9 @@
   "version": "1.1.10",
   "description": "A2a Governance Bridge MCP Server by MEOK AI Labs",
   "repository": {
-    "type": "git",
     "url": "https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp",
-    "source": "https://github.com/CSOAI-ORG/a2a-governance-bridge-mcp"
+    "source": "github",
+    "id": "1210249567"
   },
   "packages": [
     {
