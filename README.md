@@ -109,3 +109,28 @@ buyers can deploy without vendor-lock-in objections.
 > Verify any signed report at <https://meok.ai/verify>.
 
 <!-- BUY-LADDER:END -->
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "a2a-governance-bridge-mcp": {
+      "command": "uvx",
+      "args": ["a2a-governance-bridge-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install a2a-governance-bridge-mcp` then run the `a2a-governance-bridge-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `verify_agent_compliance` to …"
+- "Use `authorize_a2a_transaction` to …"
+- "Use `get_trust_registry` to …"
