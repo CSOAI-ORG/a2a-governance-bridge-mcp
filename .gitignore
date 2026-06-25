@@ -4,3 +4,8 @@ __pycache__/
 *.db
 dist/
 .vercel
+
+*_sigil.log
+bridge_sigil.log
+scoreboard_sigil.log
+__pycache__/
