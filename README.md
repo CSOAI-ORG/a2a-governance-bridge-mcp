@@ -8,7 +8,6 @@ mcp-name: io.github.CSOAI-ORG/a2a-governance-bridge-mcp
 >
 > This MCP is 1 of 12 agent-to-agent primitives. Run the whole pipeline
 > (identity → trust → policy → firewall → rate-limit → handoff → audit
-> → governance) as one signed endpoint for **£499/mo** including 100K
 > calls — or **£0.0002 per call** pay-as-you-go.
 >
 > 👉 [meok.ai/a2a](https://meok.ai/a2a) — see the Substrate
@@ -16,7 +15,6 @@ mcp-name: io.github.CSOAI-ORG/a2a-governance-bridge-mcp
 # A2A Governance Bridge MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
-[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/a2a_governance_bridge_mcp/)
 
@@ -62,14 +60,11 @@ This MCP server is built with **EU AI Act compliance** built-in:
 
 Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-## 🏢 Enterprise
+## How MEOK charges
 
-Need custom development, SLA guarantees, or white-label deployment?
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
-- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
-
-[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
+This repository's source is MIT-licensed and free to self-host.
 
 ## 🤝 Part of the MEOK Ecosystem
 
@@ -95,20 +90,6 @@ Each tier above the free self-host adds HMAC-signed attestations verifiable at
 `verify.meok.ai`. Linux Foundation governance on the A2A spine means EU regulated
 buyers can deploy without vendor-lock-in objections.
 
-<!-- BUY-LADDER:START -->
-
-## 💸 Try MEOK in 30 seconds — instant buy ladder
-
-| Tier | Price | What you get | Stripe |
-|---|---|---|---|
-| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j> |
-| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j> |
-| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j> |
-
-> Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
-> Verify any signed report at <https://meok.ai/verify>.
-
-<!-- BUY-LADDER:END -->
 
 
 ## Configuration
